@@ -515,7 +515,9 @@ code {
 a > code {
   color: inherit;
 }
-
+ .topnav-right {
+              float: right;
+            }
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
@@ -4488,7 +4490,13 @@ input[type="button"].btn-block {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
-
+.card-img-left {
+        position: absolute;
+        height: auto;
+        max-height: 100%;
+        width: auto;
+        max-width: 40%;
+    }
 .card-deck {
   display: -ms-flexbox;
   display: flex;
@@ -4882,9 +4890,14 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
   border-radius: 0.3rem;
+  background-color:#e9ecef;
 }
+.jumbotrone {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  border-radius: 0.3rem;
 
 @media (min-width: 576px) {
   .jumbotron {
